@@ -212,3 +212,60 @@ body {
   display: flex;
   justify-content: space-evenly;
 }
+.jobs-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.47;
+  color: var(--main-title-color);
+  width: 540px;
+}
+.jobs {
+  background-color: gray;
+  padding-top: 100px;
+  padding-bottom: 85px;
+}
+.standards-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 70px;
+}
+.jobs-list {
+  display: flex;
+  margin-left: -30px;
+  margin-bottom: 85px;
+}
+.jobs-item {
+  flex-basis: calc(100% / 3 - 30px);
+  margin-left: 30px;
+}
+.jobs-picture {
+  margin-bottom: 30px;
+  display: block;
+}
+.jobs-item-title {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.22;
+  color: #000000;
+  margin-bottom: 30px;
+}
+.jobs-number {
+  color: #4985ff;
+}
+.jobs-item-text {
+  font-size: 16px;
+  line-height: 1.56;
+  color: #999999;
+  margin-bottom: 30px;
+}
+.jobs-item-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.25;
+
+  color: #4985ff;
+}
+.line {
+  border-bottom: 1px solid #e0e0e0;
+}
