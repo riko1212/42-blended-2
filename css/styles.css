@@ -1,0 +1,59 @@
+:root {
+  --main-title-color: #ffffff;
+  --second-title-color: #323232;
+  --main-text-color: #999999;
+  --second-text-color: #ffffff;
+  --accent-color: #4985ff;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+body {
+  font-family: Montserrat, sans-serif;
+}
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 1140px;
+  margin-right: auto;
+  margin-left: auto;
+}
+/* HEADER */
+/* Временый фон */
+.header {
+  background-color: var(--main-text-color);
+}
+.nav-list {
+  display: flex;
+  justify-content: flex-end;
+}
+.nav-link {
+  display: block;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.25;
+  color: var(--second-text-color);
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.nav-item:not(:last-child) {
+  margin-right: 40px;
+}
